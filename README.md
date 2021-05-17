@@ -1,21 +1,33 @@
+# 归档
+
+因本项目太拉胯了，又因项目里还有一个B站的二维码登陆流程以后可以参考，就不删了，归档了
+
+# electron vue ts 完美方案
+
+创建`electron-vue`+`typescript`项目
+
+请直接用`@vue/cli`+`electron-builder`
+
+下载`@vue/cli`后，使用命令
+
+```shell
+vue create projectName
+# 选择自定义配置 并选上 TypeScript
+# 进入项目目录
+cd projectName
+# 添加 electron-builder
+vue add electron-builder
+```
+
+详情：[vue-cli-plugin-electron-builder](https://github.com/nklayman/vue-cli-plugin-electron-builder)
+
 # electron-vue-typescript-demo
 
 该项目使用 [electron-vue](https://github.com/SimulatedGREG/electron-vue) 创建，项目`javascript`全部替换成了`typescript`
 
 本项目用于学习交流，自带一个完善的 B 站的二维码登录（其实是懒得删）
 
-# 命令
-
-```bash
-# 安装依赖库
-npm i
-
-# 启动开发版
-npm run dev
-
-# 打包
-npm run build
-```
+---
 
 # 各种功能
 
